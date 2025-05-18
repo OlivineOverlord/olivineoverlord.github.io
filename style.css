@@ -74,3 +74,36 @@ article {
   font-style: italic;
   color: #555;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+    margin: 0.25rem 0.5rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
