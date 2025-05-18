@@ -65,3 +65,12 @@ a {
 a:hover {
   color: #1c3347;
 }
+
+article {
+  margin-bottom: 2rem;
+}
+
+.preview {
+  font-style: italic;
+  color: #555;
+}
