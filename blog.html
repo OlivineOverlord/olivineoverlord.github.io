@@ -71,14 +71,22 @@
 
   posts.forEach(post => {
     const article = document.createElement("article");
+    article.className = "post"; // ✅ assigns the post class
+
     article.innerHTML = `
       <h2><a href="${post.href}">${post.title}</a></h2>
-      <p><small>${new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</small></p>
+      <p class="date-line"><small>${new Date(post.date).toLocaleDateString(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      })}</small></p>
       <p class="preview">${post.description}</p>
     `;
+
     container.appendChild(article);
   });
 </script>
+
 
 </body>
 </html>
