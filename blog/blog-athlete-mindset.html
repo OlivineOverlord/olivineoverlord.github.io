@@ -33,6 +33,7 @@
       <a href="../index.html">Home</a>
       <a href="../blog.html">Back to Blog</a>
     </nav>
+    <button id="toggle-theme" aria-label="Toggle dark mode">🌓</button>
   </header>
 
   <main>
@@ -47,5 +48,22 @@
   <footer>
     <p>© 2025 Joshua Shea | <a href="https://github.com/OlivineOverlord">@OlivineOverlord</a> | <a href="https://www.esc.cam.ac.uk/staff/dr-joshua-shea" target="_blank">Cambridge Profile</a></p>
   </footer>
+
+<script>
+  const toggle = document.getElementById('toggle-theme');
+  const root = document.documentElement;
+
+  if (localStorage.getItem('theme') === 'dark' ||
+     (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    root.setAttribute('data-theme', 'dark');
+  }
+
+  toggle.addEventListener('click', () => {
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  });
+</script>
+
 </body>
 </html>
