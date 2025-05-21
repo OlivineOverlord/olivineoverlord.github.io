@@ -38,16 +38,11 @@
     </nav>
     <button id="toggle-theme" aria-label="Toggle dark mode">🌓</button>
   </header>
-
-  <main>
-    <section>
-      <article>
-        <h2><a href="blog/blog-athlete-mindset.html">Athletic Thinking in Academic Life</a></h2>
-        <p class="preview">How training for Olympic trials shaped my research mindset... <a href="blog/blog-athlete-mindset.html">Read more</a></p>
-      </article>
-    </section>
-  </main>
-
+    <main>
+      <section id="post-list">
+    <!-- Blog posts here -->
+      </section>
+    </main>
   <footer>
     <p>© 2025 Joshua Shea | <a href="https://github.com/OlivineOverlord">@OlivineOverlord</a> | <a href="https://www.esc.cam.ac.uk/staff/dr-joshua-shea" target="_blank">Cambridge Profile</a></p>
   </footer>
@@ -65,6 +60,23 @@
     const isDark = root.getAttribute('data-theme') === 'dark';
     root.setAttribute('data-theme', isDark ? 'light' : 'dark');
     localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  });
+</script>
+
+<script src="blog/posts.js"></script>
+<script>
+  const container = document.getElementById("post-list");
+
+  posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  posts.forEach(post => {
+    const article = document.createElement("article");
+    article.innerHTML = `
+      <h2><a href="${post.href}">${post.title}</a></h2>
+      <p><small>${new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</small></p>
+      <p class="preview">${post.description}</p>
+    `;
+    container.appendChild(article);
   });
 </script>
 
