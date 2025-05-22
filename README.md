@@ -42,23 +42,37 @@ You can visit the live site at: [olivineoverlord.github.io/](https://olivineover
 
 ## Usage
 
-To use this as a personal academic website template:
+To use this site as a template for your own academic website:
 
-1. **Fork the repository** on GitHub  
-2. **Clone your fork locally**
-   ```
-   git clone https://github.com/your-username/your-fork.git
-   cd your-fork
-   ```
-3. **Edit the content**
-   - Modify HTML files (`index.html`, `about.html`, etc.)
-   - Update styles in `css/styles.css`
-   - Replace images and add blog posts in the appropriate folders
+1. **Go to the original repository**:  
+   [https://github.com/olivineoverlord/olivineoverlord.github.io](https://github.com/olivineoverlord/olivineoverlord.github.io)
 
-4. **Deploy using GitHub Pages**
-   - Go to your repository settings
-   - Enable GitHub Pages for the `main` branch
-   - If using a custom domain, add it to the `CNAME` file
+2. Click the **"Fork"** button in the top-right corner to create a copy of the repository under your own GitHub account.
+
+3. After forking, go to **Settings** in your forked repository and **rename the repository** to:
+
+   ```
+   <your-github-username>.github.io
+   ```
+
+   > This is required for the site to publish to your GitHub Pages root URL.
+
+4. **Clone your renamed repository** to your local machine:
+   ```bash
+   git clone https://github.com/<your-github-username>/<your-github-username>.github.io.git
+   cd <your-github-username>.github.io
+   ```
+
+5. Modify the content:
+   - Update HTML files like `index.html`, `about.html`, `research.html`, etc.
+   - Add blog posts in the `blog/` directory
+   - Replace images and documents in the `assets/` folder
+
+6. **Deploy via GitHub Pages**:
+   - Go to your repository’s **Settings** > **Pages**
+   - Under "Source", choose the `main` branch (or the default branch)
+   - Your website will be published at:  
+     `https://<your-github-username>.github.io/`
 
 ## License
 
