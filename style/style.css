@@ -172,3 +172,51 @@ article {
   margin-top: 0.4rem;
   line-height: 1.6;
 }
+
+/* Project cards */
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.project-card h3 a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.project-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.project-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.project-card li {
+  margin-bottom: 0.3rem;
+}

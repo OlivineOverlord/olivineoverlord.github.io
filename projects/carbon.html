@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martian Carbon Cycling</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Project: Martian Carbon Cycling — Understanding carbon in the Martian mantle through experiments and melt inclusions.">
+  <meta name="author" content="Joshua Shea">
+  <meta name="keywords" content="Joshua Shea, Mars, Carbon, Geochemistry, Planetary Science, Volatiles, SIMS, Petrology">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Martian Carbon Cycling | Joshua Shea">
+  <meta property="og:description" content="Exploring carbon behavior in the Martian mantle through SIMS and experimental petrology.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://olivineoverlord.github.io/projects/martian-carbon.html">
+  <meta property="og:image" content="https://olivineoverlord.github.io/assets/images/mars-carbon.png">
+
+  <!-- Bluesky -->
+  <meta name="generator" content="Joshua Shea" />
+  <meta property="at:profile" content="https://bsky.app/profile/olivineoverlord.bsky.social" />
+
+  <link rel="stylesheet" href="../style/style.css" />
+  <script data-goatcounter="https://olivineoverlord.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Martian Carbon Cycling</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../research.html">Back to Research</a>
+    </nav>
+    <button id="toggle-theme" aria-label="Toggle dark mode">🌓</button>
+  </header>
+
+  <main>
+    <article>
+      <p><strong>May 2025</strong></p>
+
+      <p>This project explores how carbon is stored, released, and cycled in the Martian mantle using high-temperature experimental petrology and in situ geochemical analysis. My approach combines carbon isotopes, melt inclusion studies, and comparison to terrestrial analogues.</p>
+
+      <h2>Goals</h2>
+      <ul>
+        <li>Quantify CO₂ solubility in Martian analog melts</li>
+        <li>Constrain melting regimes under reducing conditions (fO₂ &lt; FMQ-2)</li>
+        <li>Compare Martian and terrestrial degassing profiles</li>
+      </ul>
+
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://doi.org/..." target="_blank">EPSL 2024 publication</a></li>
+        <li><a href="../blog/blog-mars-carbon.html">Related blog post</a></li>
+        <li><a href="../assets/slides/mars-carbon-talk.pdf">AGU talk slides (PDF)</a></li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Joshua Shea | <a href="https://github.com/OlivineOverlord">@OlivineOverlord</a> | <a href="https://www.esc.cam.ac.uk/staff/dr-joshua-shea" target="_blank">Cambridge Profile</a></p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('toggle-theme');
+    const root = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'dark' ||
+       (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      root.setAttribute('data-theme', 'dark');
+    }
+
+    toggle.addEventListener('click', () => {
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>
