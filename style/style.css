@@ -220,3 +220,19 @@ article {
 .project-card li {
   margin-bottom: 0.3rem;
 }
+
+#listening-section h2, #listening-section h3 {
+  text-align: center;
+}
+
+#listening-section ul {
+  list-style: none;
+  padding-left: 0;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+#listening-section li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
