@@ -30,24 +30,29 @@
   <header>
     <h1>Blog</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="research.html">Research</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" class="link-underline">Home</a>
+      <a href="about.html" class="link-underline">About</a>
+      <a href="research.html" class="link-underline">Research</a>
+      <a href="blog.html" class="link-underline">Blog</a>
+      <a href="contact.html" class="link-underline">Contact</a>
     </nav>
     <button id="toggle-theme" aria-label="Toggle dark mode">🌓</button>
   </header>
-    <main>
-      <section id="post-list">
-    <!-- Blog posts here -->
-      </section>
-    </main>
+  
+  <main>
+    <section class="section">
+      <div id="post-list">
+        <!-- Blog posts dynamically loaded here -->
+      </div>
+    </section>
+  </main>
+  
   <footer>
-    <p>© 2025 Joshua Shea | <a href="https://github.com/OlivineOverlord">@OlivineOverlord</a> | <a href="https://www.esc.cam.ac.uk/staff/dr-joshua-shea" target="_blank">Cambridge Profile</a></p>
+    <p>© 2025 Joshua Shea | <a href="https://bsky.app/profile/olivineoverlord.bsky.social" target="_blank" class="link-underline">@OlivineOverlord</a> | <a href="https://www.esc.cam.ac.uk/staff/dr-joshua-shea" target="_blank" class="link-underline">Cambridge Profile</a></p>
   </footer>
 
 <script>
+  // Theme toggle functionality
   const toggle = document.getElementById('toggle-theme');
   const root = document.documentElement;
 
@@ -65,28 +70,47 @@
 
 <script src="blog/posts.js"></script>
 <script>
-  const container = document.getElementById("post-list");
+  // Blog posts rendering
+  const renderBlogPosts = () => {
+    const container = document.getElementById("post-list");
+    
+    if (!posts || posts.length === 0) {
+      container.innerHTML = '<p class="muted center">No blog posts yet. Check back soon!</p>';
+      return;
+    }
 
-  posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Sort posts by date (newest first)
+    const sortedPosts = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  posts.forEach(post => {
-    const article = document.createElement("article");
-    article.className = "post"; // ✅ assigns the post class
+    // Create document fragment for better performance
+    const fragment = document.createDocumentFragment();
 
-    article.innerHTML = `
-      <h2><a href="${post.href}">${post.title}</a></h2>
-      <p class="date-line"><small>${new Date(post.date).toLocaleDateString(undefined, {
+    sortedPosts.forEach(post => {
+      const article = document.createElement("article");
+      article.className = "section"; // Use section spacing
+
+      // Format date
+      const formattedDate = new Date(post.date).toLocaleDateString(undefined, {
         year: 'numeric',
         month: 'long',
         day: 'numeric'
-      })}</small></p>
-      <p class="preview">${post.description}</p>
-    `;
+      });
 
-    container.appendChild(article);
-  });
+      article.innerHTML = `
+        <h2><a href="${post.href}" class="link-underline">${post.title}</a></h2>
+        <p class="small muted">${formattedDate}</p>
+        <p>${post.description}</p>
+      `;
+
+      fragment.appendChild(article);
+    });
+
+    container.appendChild(fragment);
+  };
+
+  // Initialize when DOM is ready
+  document.addEventListener('DOMContentLoaded', renderBlogPosts);
 </script>
-
 
 </body>
 </html>
