@@ -288,3 +288,46 @@ footer {
     margin: 0.25rem 0.5rem; 
   }
 }
+
+/* Add these classes to your style.css file */
+
+/* Compact card for about page - similar to index highlights */
+.card-compact {
+  background: var(--bg);
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border);
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-compact:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-compact h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'EB Garamond', serif;
+  line-height: 1.3;
+}
+
+.card-compact p {
+  margin: 0.25rem 0;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.card-compact .small.muted {
+  margin: 0.25rem 0 0 0;
+}

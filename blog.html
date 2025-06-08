@@ -1,25 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog | Joshua Shea</title>
+  <title>Blog | Joshua Shea | Earth Sciences Research Updates</title>
   
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Joshua Shea – Postdoctoral Researcher in Earth Sciences at the University of Cambridge. Exploring carbon in the mantle, planetary geochemistry, and scientific storytelling.">
-  <meta name="author" content="Joshua Shea">
-  <meta name="keywords" content="Joshua Shea, Geochemistry, Cambridge, Earth Science, Planetary Science, Igneous Petrology, Volatiles, Research, Mars">
+  <!-- Enhanced SEO Meta Tags -->
+  <meta name="description" content="Research blog by Dr Joshua Shea, Cambridge Earth Sciences postdoc. Insights on mantle geochemistry, carbon cycling, planetary science, and academic life.">
+  <meta name="keywords" content="Joshua Shea blog, Earth sciences research, mantle geochemistry, carbon cycling, planetary science, academic blog, Cambridge research, SIMS analysis, melt inclusions, scientific writing">
+  <meta name="author" content="Dr Joshua Shea">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
 
-  <!-- Open Graph for LinkedIn and other platforms -->
-  <meta property="og:title" content="Joshua Shea | Olivine Overlord">
-  <meta property="og:description" content="Earth scientist exploring deep carbon, magmas, and planetary science. Based at the University of Cambridge.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://olivineoverlord.github.io">
+  <!-- Academic-specific meta tags -->
+  <meta name="citation_author" content="Joshua Shea">
+  <meta name="citation_author_institution" content="University of Cambridge">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://olivineoverlord.github.io/blog.html">
+
+  <!-- Enhanced Open Graph -->
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="Blog | Joshua Shea | Earth Sciences Research Updates">
+  <meta property="og:description" content="Research insights and updates from Dr Joshua Shea, postdoctoral researcher in Earth Sciences at Cambridge University. Topics include mantle geochemistry, carbon cycling, and planetary science.">
+  <meta property="og:url" content="https://olivineoverlord.github.io/blog.html">
   <meta property="og:image" content="https://olivineoverlord.github.io/preview.png">
+  <meta property="og:site_name" content="Joshua Shea - Academic Profile">
 
-  <!-- Bluesky Meta (custom tag) -->
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Research Blog | Dr Joshua Shea">
+  <meta name="twitter:description" content="Earth sciences research insights from Cambridge University postdoc specializing in mantle geochemistry and carbon cycling.">
+
+  <!-- Bluesky Meta -->
   <meta name="generator" content="Joshua Shea" />
   <meta property="at:profile" content="https://bsky.app/profile/olivineoverlord.bsky.social" />
+
+  <!-- Schema.org structured data for Blog -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Joshua Shea Research Blog",
+    "description": "Research insights and updates on mantle geochemistry, carbon cycling, and planetary science",
+    "url": "https://olivineoverlord.github.io/blog.html",
+    "author": {
+      "@type": "Person",
+      "name": "Joshua Shea",
+      "honorificPrefix": "Dr",
+      "jobTitle": "Postdoctoral Researcher",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Cambridge",
+        "department": "Department of Earth Sciences"
+      },
+      "sameAs": [
+        "https://orcid.org/0000-0001-7869-1479",
+        "https://scholar.google.com/citations?user=6cWCOHkAAAAJ",
+        "https://bsky.app/profile/olivineoverlord.bsky.social"
+      ]
+    },
+    "about": [
+      "Earth Sciences",
+      "Mantle Geochemistry", 
+      "Carbon Cycling",
+      "Planetary Science",
+      "Academic Research"
+    ],
+    "inLanguage": "en-GB"
+  }
+  </script>
   
   <link rel="stylesheet" href="style/style.css" />
 
@@ -63,7 +113,7 @@
 
   toggle.addEventListener('click', () => {
     const isDark = root.getAttribute('data-theme') === 'dark';
-    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    root.setAttribute('data-theme', isDash ? 'light' : 'dark');
     localStorage.setItem('theme', isDark ? 'light' : 'dark');
   });
 </script>
@@ -87,7 +137,7 @@
 
     sortedPosts.forEach(post => {
       const article = document.createElement("article");
-      article.className = "section"; // Use section spacing
+      article.className = "section";
 
       // Format date
       const formattedDate = new Date(post.date).toLocaleDateString(undefined, {
