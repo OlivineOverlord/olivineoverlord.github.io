@@ -5,7 +5,7 @@ This repository contains the source code for my personal academic website. It pr
 
 ## Design Philosophy
 
-This site combines academic professionalism with modern web design. It features a clean, efficient CSS architecture with utility classes, automatic publication integration via ORCID API, and a responsive design that works seamlessly across devices. The focus is on showcasing research and facilitating academic collaboration.
+This site combines academic professionalism with modern web design. It features a clean, efficient CSS architecture with utility classes, automatic publication integration via ORCID API, and a responsive design that works across devices. The focus is on showcasing research and facilitating academic collaboration.
 
 ## Key Features
 
@@ -24,7 +24,7 @@ This site combines academic professionalism with modern web design. It features 
 
 ### Performance & Accessibility
 - **Efficient CSS** with minimal redundancy
-- **Fast-loading** with optimized API calls
+- **Fast-loading** with optimised API calls
 - **Semantic HTML** for accessibility
 - **Mobile-first responsive design**
 - **Cross-browser compatibility**
@@ -67,7 +67,7 @@ The site uses an efficient utility-first CSS approach with:
 - **Automatic publication fetching** from ORCID profiles
 - **Harvard citation formatting** with proper author attribution
 - **Error handling** with graceful fallbacks
-- **Performance optimization** with parallel API requests
+- **Performance optimisation** with parallel API requests
 
 ### Blog System
 - **JavaScript-driven** blog post rendering from JSON data
@@ -75,7 +75,7 @@ The site uses an efficient utility-first CSS approach with:
 - **Integration** with homepage highlights
 - **Easy content management** through simple file updates
 
-## Usage & Customization
+## Usage & Customisation
 
 To use this site as a template for your own academic website:
 
@@ -86,13 +86,13 @@ git clone https://github.com/<your-username>/<your-username>.github.io.git
 cd <your-username>.github.io
 ```
 
-### 2. Customize Content
+### 2. Customise Content
 - **Update ORCID ID** in `index.html` (line with `ORCID_ID` variable)
 - **Modify personal information** in all HTML files
 - **Replace CV and documents** in `assets/documents/`
 - **Update blog posts** in `blog/posts.js`
 
-### 3. Styling Customization
+### 3. Styling Customisation
 The CSS uses custom properties for easy theming:
 ```css
 :root {
@@ -135,9 +135,9 @@ Streamlined contact options with:
 - **Progressive enhancement** with graceful degradation
 
 ## Performance
-- **Lightweight** CSS (~15KB optimized)
+- **Lightweight** CSS (~15KB optimised)
 - **Fast API calls** with parallel processing
-- **Optimized images** and assets
+- **Optimised images** and assets
 - **Minimal JavaScript** for core functionality
 
 ## License
