@@ -71,8 +71,17 @@ To use this site as a template for your own academic website:
 6. **Deploy via GitHub Pages**:
    - Go to your repository’s **Settings** > **Pages**
    - Under "Source", choose the `main` branch (or the default branch)
-   - Your website will be published at:  
+   - Your website will be published at:
      `https://<your-github-username>.github.io/`
+
+## Running Tests
+
+To run the automated checks that verify blog post links, execute:
+
+```bash
+python3 -m unittest
+```
+
 
 ## License
 
