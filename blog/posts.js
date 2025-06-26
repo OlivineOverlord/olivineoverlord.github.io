@@ -1,10 +1,10 @@
 // blog/posts.js
 const posts = [
   {
-    title: "Athletic Thinking in Academic Life",
-    date: "2024-12-20",
-    description: "How Olympic discipline shaped my research mindset.",
-    href: "blog/blog-athlete-mindset.html"
+  title: "Applied Science Isn’t What You Think It Is",
+  date: "2025-06-26",
+  href: "blog/blog-applied-science.html",
+  description: "The push for 'applied science' and a misunderstanding of science.",
   },
   // Add more blog posts below
 ];
