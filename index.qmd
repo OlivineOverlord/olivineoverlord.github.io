@@ -1,0 +1,72 @@
+---
+title: ""
+pagetitle: "Joshua Shea"
+description-meta: "Joshua Shea — Postdoctoral researcher in igneous geochemistry at the University of Cambridge. Mantle volatiles, melt inclusions, experimental petrology."
+toc: false
+page-layout: full
+---
+
+::: {.home-hero}
+::: {.name}
+Joshua Shea
+:::
+::: {.role}
+Postdoctoral researcher in igneous geochemistry
+:::
+::: {.affiliation}
+Department of Earth Sciences · University of Cambridge
+:::
+:::
+
+I work on how the deep Earth carries and releases volatiles — carbon, in particular —
+and what that means for the long-term carbon cycle and the conditions
+that made the planet habitable. My approach combines [high-precision SIMS measurements](publications.qmd)
+on natural melt inclusions with [piston-cylinder and multi-anvil experiments](research.qmd),
+backed by fairly heavy data analysis in Python.
+
+Right now I am working with [Oliver Shorttle](https://oshorttle.com) at Cambridge,
+on three threads:
+
+- **Carbon in the upper mantle.** Using olivine- and plagioclase-hosted melt inclusions
+  from mid-ocean ridges to constrain the carbon isotope composition of MORB-source mantle
+  and how spreading-ridge cumulates redistribute volatiles.
+- **Hydrothermal vents and the origin of life.** Experimental petrology connecting
+  volcanism and deep volatile cycles to prebiotic chemistry.
+- **Mars.** Mantle melting on Mars and what InSight, NWA samples, and an upcoming
+  return mission can tell us.
+
+If any of this overlaps with what you do — or what you'd like to do —
+[get in touch](mailto:joshuajshea@gmail.com).
+
+---
+
+## Recent
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Heavy carbon in Earth's early mantle** *(in prep, Nature Geoscience)*  
+Olivine-hosted melt inclusions from Iceland record δ¹³C values heavier than
+the convecting upper mantle, pointing to a distinct deep primordial carbon reservoir.
+[→ explainer](posts/2026-01-revised-mantle-carbon/index.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**A revised carbon isotope composition of the convecting upper mantle**  
+*Geochemical Perspectives Letters, 2026.* New SIMS-derived estimate for MORB-source δ¹³C,
+with downstream consequences for the long-term carbon cycle.
+[→ publications](publications.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Mars Forum, JPL — invited talk**  
+*March 2025.* Mantle melting on Mars with applications for sample return.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**A. H. Voisey Medal** *(2024)*  
+Awarded by the NSW Division of the Geological Society of Australia for early-career
+contribution to the Earth Sciences.
+:::
+
+:::

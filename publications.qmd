@@ -1,0 +1,59 @@
+---
+title: "Publications"
+description: "Peer-reviewed publications, in-prep manuscripts, and conference proceedings."
+toc: true
+toc-depth: 2
+---
+
+::: {.callout-note appearance="simple"}
+**Summary.** ~118 citations since 2020 · h-index 6 · [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID) · [ORCID](https://orcid.org/0000-0000-0000-0000)  
+Underlined names indicate first or senior author. **Bold** = my name.
+:::
+
+## In preparation / submitted
+
+- **Shea JJ**, Maclennan J, Buisman I, Shorttle O. *Covariance orientation shows coupled substitution and mechanism-dependent diffusion in olivine.* In prep, *Advances in Geochemistry and Cosmochemistry*.
+- **Shea JJ**, Maclennan J, Hughes EC, Hartley M, Mikhail S, Gaetani G, Monteleone B, EIMF, Gibson S, Shorttle O. *Heavy carbon in Earth's early mantle.* In prep, *Nature Geoscience*.
+- Davies JH, Panton J, *et al.* (incl. **Shea JJ**). *Application of using disparate independent observations to constrain over 200 mantle circulation models.* In prep, *Proceedings of the Royal Society A*.
+- Klöcking M, Stracke A, Lanati AW, **Shea JJ**, *et al.* *Re-melting continental roots.* Submitted, *Nature*.
+- **Shea JJ**, Soderman CR, Teece BL, Weller OM, Barge LM, Shorttle O. *Martian mantle melting operates in a distinct deep melting regime.* Addressing reviews, *Earth and Planetary Science Letters*.
+
+## 2026
+
+- **Shea JJ**, Maclennan J, Edmonds M, Hughes EC, Hartley M, Mikhail S, Perfit M, Shorttle O (2026). A revised carbon isotope composition of the convecting upper mantle. *Geochemical Perspectives Letters.* Accepted.
+- Lanati AW, **Shea JJ**, Foley SF, Klöcking M, Gerdes-Berndt J, Rohrbach A, Klemme S (2026). The petrology, geochemistry, and origin of the East Australian Potassic Suite: bulk chemistry and genesis. *Journal of Petrology* 67(2): egag002.
+
+## 2025
+
+- Evans AJM, Farrel NJC, Neave DA, Heartley ME, Healy D, Waters JP, McElhinney T, **Shea JJ**, Bigaroni N, Hunt SA (2025). Field fracture analysis on lithium-bearing Cligga Head granite: understanding critical mineral mobilisation from fluid flow. *Journal of Structural Geology* 105510.
+- Ezad IS, **Shea JJ**, Foley SF (2025). Hydrous minerals are sinks for first-row transition elements in the mantle: an experimental partitioning study. *Chemical Geology* 122883.
+- Davies JH, Panton J, *et al.* (incl. **Shea JJ**) (2025). How to assess similarities and differences between mantle circulation models and Earth using disparate independent observations. *Proceedings of the Royal Society A* 481(2315): 20240827.
+- **Shea JJ**, Hughes CE, Bindemann I, Blundy J, Brooker R, Botcharnikov R, Cartigny P, EIMF, Gaetani G, Kilgour G, Maclennan J, Monteleone B, Neave DA, Shorttle O (2025). Improved precision and reference materials for stable carbon isotope measurement in basaltic glasses using secondary ion mass spectrometry. *Geostandards and Geoanalytical Research* 49(3): 607–627.
+- Buckingham M, **Shea JJ**, Quan KZ, Lo PME, Swindell J, Xiao W, Lewis D, Eggerman A, Hunt SA (2025). Using high pressure to investigate the stability of high-entropy wurtzite-structured (MnFeCuAgZnCd)S. *Communications Chemistry* 8(1): 65.
+- Chen C, Förster MW, Ezad IS, **Shea JJ**, Shcheka SS, Jacob DE, Foley SF (2025). Sulfide-rich continental roots at cratonic margins formed by carbonated melts. *Nature* 637(8046): 615–621.
+
+## 2024
+
+- Manassero MC, Özaydin S, Afonso JC, **Shea JJ**, Kirkby A, Ezad IS, Fomin I, Czarnota K (2024). Lithospheric structure and melting processes in southeast Australia: new constraints from joint probabilistic inversions of 3D magnetotelluric and seismic data. *Journal of Geophysical Research: Solid Earth* 129(3): e2023JB028257.
+- **Shea JJ**, Foley SF, Dalton H, Lanati AW, Phillips D (2024). Mid-Jurassic intraplate volcanism at Bokhara River, and insight into metasomatism in the lithospheric mantle of the Thompson Orogen, eastern Australia. *Australian Journal of Earth Sciences* 71(3): 325–337.
+
+## 2023 and earlier
+
+- Ezad IS, Shcheka SS, Buhre S, Gorojovsky LR, **Shea JJ**, Förster MW, Foley SF (2023). Rapid-quench piston-cylinder apparatus: an improved design for the recovery of volatile-rich geological glasses from experiments at 0.5–2.5 GPa. *Review of Scientific Instruments* 94: 055107.
+- **Shea JJ**, Ezad IS, Lanati AW, Foley SF (2022). The Eastern Australian Volcanic Province, its primitive melts, constraints on melt sources and the influence of mantle metasomatism. *Earth-Science Reviews* 233: 104168.
+- Liu Z, **Shea JJ**, Foley SF, Bussweiler Y, Rohrbach A, Klemme S, Berndt J (2020). Clarifying source assemblages and metasomatic agents for basaltic rocks in eastern Australia using olivine phenocryst compositions. *Lithos* 390: 106122.
+- **Shea JJ**, Foley SF (2019). Evidence for a carbonatite-influenced source assemblage for intraplate basalts from the Buckland Volcanic Province, Queensland, Australia. *Minerals* 9(9): 546.
+
+## Selected talks and conference presentations
+
+### Invited
+
+- **Mars Forum, NASA JPL / Caltech** *(March 2025, online).* Shea JJ, Soderman CR. *Mantle melting on Mars with applications for sample return.*
+- **Department seminar, Universität Münster** *(December 2022).* Shea JJ, Ezad IS, Foley SF. *A lattice strain approach to partitioning between olivine and alkaline melts.*
+
+### Presenting author (recent)
+
+- **Goldschmidt 2025** *(Prague, talk).* Shea JJ, Shorttle O, Maclennan J, Hughes E, Gaetani G, Monteleone B. *Heavy carbon in Iceland's primordial reservoir.*
+- **AGU 2024** *(Washington D.C., poster).* Shea JJ *et al.* *Enhanced precision on in situ measurements of stable carbon isotope ratios in basaltic glasses.*
+
+A full list of conference presentations is on my [CV](cv.qmd).

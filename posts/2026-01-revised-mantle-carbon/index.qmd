@@ -1,0 +1,93 @@
+---
+title: "Why the upper mantle's carbon isotopes needed a rewrite"
+description: |
+  A plain-language explainer of our 2026 *Geochemical Perspectives Letters*
+  paper revising the carbon isotope composition of the convecting upper mantle —
+  what we measured, why it differs from textbook values, and what it means for
+  the long-term carbon cycle.
+date: 2026-01-15
+date-modified: today
+categories: [carbon, MORB, SIMS, paper-explainer]
+image: ../../images/post-thumb-placeholder.svg
+image-alt: "Schematic of carbon isotope reservoirs in the upper mantle"
+reading-time: true
+---
+
+::: {.callout-note appearance="simple"}
+**The paper:** Shea JJ, Maclennan J, Edmonds M, Hughes EC, Hartley M, Mikhail S, Perfit M, Shorttle O. (2026). *A revised carbon isotope composition of the convecting upper mantle.* **Geochemical Perspectives Letters**, accepted.
+:::
+
+## TL;DR
+
+The textbook value for the carbon isotope composition of mid-ocean-ridge basalt (MORB) source mantle —
+roughly δ¹³C ≈ −5 ‰ — is, it turns out, a little off. Using a new high-precision SIMS protocol on
+olivine-hosted melt inclusions, we find the convecting upper mantle is **isotopically lighter than
+previously thought**, with implications for how much subducted carbon recycles back, and how we
+balance the long-term carbon cycle.
+
+## Why it matters
+
+Carbon is the volatile element that most directly couples Earth's interior to its climate.
+Volcanic CO₂ outgassing balances silicate weathering on timescales of ~10⁵–10⁸ years,
+and the long-term δ¹³C composition of the atmosphere–ocean system reflects an exchange between
+biological, surface, and mantle reservoirs. If we don't know the mantle endmember properly,
+we can't close the budget.
+
+The "−5 ‰ mantle" is a number that's been propagating through the literature for decades.
+It comes mostly from older bulk-sample CO₂ extractions from MORB glasses and vesicles, with
+real and well-known issues around degassing, contamination, and atmospheric exchange.
+
+## What we did
+
+Two things, in combination:
+
+1. **Better samples.** We targeted **olivine-hosted melt inclusions** from undegassed MORB.
+   Inclusions trapped at depth preserve primary volatile contents, and (importantly for carbon)
+   they avoid the runaway degassing that compromises pillow-rim glass.
+
+2. **Better measurements.** We used the [SIMS protocol we developed in 2025](../../publications.qmd)
+   to measure carbon concentration **and** δ¹³C concurrently in the same spot, with precision
+   tight enough to resolve a few permil — the scale of mantle-source variability.
+
+The reference materials we developed for that 2025 method paper are what made this possible.
+Without well-characterised glasses spanning a range of carbon contents and known δ¹³C, you can't
+correct for instrumental mass fractionation properly, and δ¹³C results just drift.
+
+## What we found
+
+The convecting upper mantle, as sampled by undegassed MORB melt inclusions, has a δ¹³C
+**lighter** than the conventional value. (The exact number, with uncertainties, lives in the
+paper — I'll update this post once the proofs are out.)
+
+Two things follow:
+
+- **The recycled-carbon budget changes.** The mass-balance between the mantle, subducted
+  carbonates (heavy δ¹³C), and subducted organic carbon (light δ¹³C) gives a different
+  flux ratio with the new mantle endmember. The first-order conclusion: less of the carbon
+  outgassed at ridges is recycled organic.
+- **Hotspot–MORB contrasts get sharper.** A separate, in-prep paper on Iceland shows the
+  primordial reservoir there is *heavier* than the upper mantle — and that contrast is
+  larger once you've corrected the upper mantle baseline. More on that one later.
+
+## How to read the figures
+
+The headline plot is a histogram of δ¹³C from MORB melt inclusions, with the published
+bulk-glass values overlain for context. The shift between the two distributions is the
+result. The key thing to look at is the **mode**, not the mean — a few mixed samples in
+the bulk-glass dataset pull the average around in ways that aren't representative of the
+source.
+
+## What's next
+
+A natural follow-up is plagioclase-hosted inclusions and gabbroic cumulate samples — the
+work I started in January 2026. Spreading-ridge cumulates redistribute volatiles in ways
+that we don't have a good handle on, and getting δ¹³C in those phases will close another loop.
+
+If you work on carbon-cycle modelling and want the numbers in a usable form,
+[email me](mailto:joshuajshea@gmail.com) — happy to share the dataset and the
+isotope corrections.
+
+::: {.callout-tip appearance="simple"}
+*This post is a plain-language summary. For methods, uncertainties, and full
+context, please see [the paper](../../publications.qmd).*
+:::

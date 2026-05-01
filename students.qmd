@@ -1,0 +1,83 @@
+---
+title: "For prospective students and collaborators"
+description: "How to work with me on mantle volatiles, experimental petrology, and origins-of-life geochemistry."
+---
+
+I supervise undergraduate, masters, and (as a co-supervisor) PhD projects through the
+Department of Earth Sciences at Cambridge. If you're interested in any of the threads
+on my [research page](research.qmd), get in touch — even informally.
+
+## What I'm looking for
+
+You don't need a perfect background. You do need:
+
+- **Curiosity about the deep Earth.** Things that move on million-year timescales,
+  at gigapascals, or in vanishingly small concentrations.
+- **Comfort with quantitative work.** Most of my projects involve a meaningful amount
+  of data analysis (Python or R). If you don't know either yet, that is fine and
+  fixable; willingness to learn is what matters.
+- **Honesty about uncertainty.** Geochemistry runs on error bars. The best students I
+  have worked with are the ones who treat "I'm not sure" as a useful sentence rather
+  than a failure.
+
+I am especially interested in supervising students from backgrounds underrepresented
+in Earth Sciences. The Wellcome Trust EDIA internship I ran in 2023 was one of the more
+rewarding things I've done in this job, and I am actively looking for similar opportunities.
+
+## Project ideas
+
+These are starting points — real projects evolve from your interests in conversation.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Carbon in spreading-ridge cumulates**  
+Microanalysis of plagioclase-hosted inclusions and gabbroic samples to map how volatile
+carbon redistributes during cumulate formation. Suits a student who likes microscopy and
+careful measurement, and is willing to learn SIMS.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Hydrothermal vent geochemistry as prebiotic chemistry**  
+Piston-cylinder and gas-mixing furnace experiments simulating Hadean vent conditions —
+what minerals form, what fluids result, what organic chemistry follows. Cross-cuts
+geology and origins-of-life biochemistry. Suits a student who wants something
+interdisciplinary and isn't afraid of an experimental learning curve.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Olivine partitioning, revisited**  
+Lattice-strain modelling of trace-element partitioning between olivine and silicate melts,
+using new experimental and natural data. Heavier on theory and statistics; lighter on lab time.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Mars mantle melting**  
+Comparing experimental constraints with InSight seismology and meteorite (NWA) chemistry.
+A modelling- and synthesis-heavy project; well suited to a student preparing to work on
+returned samples in the next decade.
+:::
+
+:::
+
+## Practicalities
+
+- **Cambridge undergraduates** — Part II and Part III project supervision, in coordination with the
+  Department. Reach out in early Michaelmas of the year before your project.
+- **Masters / Part III** — happy to discuss extended projects.
+- **PhD students** — I co-supervise PhDs in the Shorttle group; if you're applying to Cambridge
+  Earth Sciences and would like to work on something that overlaps with my interests, email me
+  before submitting your application so we can talk through fit.
+- **Visiting researchers / mentees** — I currently mentor PhD students at Münster and Cambridge
+  on micro-analytical methods and experimental work. Open to similar arrangements elsewhere.
+
+## How to get in touch
+
+The best email is [joshuajshea@gmail.com](mailto:joshuajshea@gmail.com). Tell me:
+
+1. Where you are in your studies and what you've worked on.
+2. Which thread (or specific project idea) caught your eye, and why.
+3. What you'd like to get out of the project.
+
+A short paragraph on each is plenty — please don't send a multi-page motivation letter for a
+first email. If there's a fit I'll suggest a quick conversation.

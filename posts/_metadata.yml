@@ -1,0 +1,19 @@
+# Defaults applied to every post in /posts
+# Override any of these in an individual post's YAML header.
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: right
+
+author: "Joshua Shea"
+
+# Show "back to all notes" links
+back-to-top-navigation: true
+
+# Citation block at the bottom of each post (for academic-style citation export)
+citation: true
+
+execute:
+  freeze: auto

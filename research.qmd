@@ -1,0 +1,91 @@
+---
+title: "Research"
+description: "Three threads: carbon in the upper mantle, hydrothermal vents and the origin of life, and mantle melting on Mars."
+---
+
+My research sits at the intersection of **igneous geochemistry**, **experimental petrology**,
+and **micro-analytical method development**. The unifying question: how do volatile elements
+move between Earth's interior and its surface, and what does that tell us about the planet's
+deep structure and long-term evolution?
+
+## Carbon in the upper mantle
+
+Carbon is volcanism's most under-measured volatile. It is present at vanishingly low
+concentrations in basaltic glass, and its isotope composition is sensitive to degassing,
+contamination, and analytical drift. Working with the [Northeast National Ion Microprobe Facility](https://www.whoi.edu/what-we-do/explore/instruments/instruments-sensors-samplers/northeast-national-ion-microprobe-facility/),
+I developed a **SIMS protocol that measures C concentration and δ¹³C concurrently in
+basaltic glasses** with a precision tight enough to resolve mantle-source variability,
+and produced a set of well-characterised reference glasses for the community.
+
+Applied to olivine-hosted melt inclusions, this method has revised the carbon isotope
+composition of the convecting upper mantle and uncovered a distinct, isotopically heavy
+deep primordial reservoir sampled by Icelandic basalts. The downstream implication is a
+revised long-term carbon cycle.
+
+*Funding:* NERC IMF direct access; Wellcome Trust EDIA Summer Internship.  
+*Key collaborators:* John Maclennan, Marie Edmonds, Ery Hughes (GNS), Glenn Gaetani (WHOI).
+
+## Hydrothermal vents and the origin of life
+
+A new experimental thread (started October 2025): testing scenarios that link
+volcanism and deep volatile cycles to **prebiotic chemistry at hydrothermal vents**.
+The work uses piston-cylinder and gas-mixing furnace experiments to recreate
+geochemically plausible vent conditions, and then asks what organic chemistry follows.
+
+This is interdisciplinary by design — geochemistry, mineralogy, and origins-of-life
+biochemistry — and is the kind of question that benefits from a student or two
+willing to learn experimental methods. [See the students page](students.qmd).
+
+## Mantle melting on Mars
+
+With sample return on the horizon and InSight's seismic legacy now in hand,
+the question of how the Martian mantle melts is suddenly tractable. I have argued
+(in a paper currently addressing reviews at *EPSL*) that **Martian mantle melting
+operates in a distinct deep regime** compared with Earth, with implications for the
+volatile budget delivered to the surface and what we should expect returned samples
+to record.
+
+This was the subject of an invited talk at the [Mars Forum (JPL/Caltech)](https://mars.jpl.nasa.gov/) in March 2025.
+
+## Methods I use
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Microbeam and isotopic analysis**  
+SIMS (concurrent C abundance + δ¹³C in basaltic glass), ToF-SIMS, LA-ICP-MS/MS,
+EPMA, SEM-EDS/EBSD/CL, Raman, CHNS.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Experimental petrology**  
+Piston-cylinder (including rapid-quench), multi-anvil to transition-zone pressures,
+gas-mixing furnace.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Data science**  
+Python and R for processing micro-analytical data, including statistical
+workflows for XRF/EDS spectral mapping and machine-learning approaches to
+spectral processing.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Field**  
+Eastern Australian intraplate volcanism, Cornish granites, Hawaiʻian shield
+volcanism. Roughly 7.5 months of cumulative field time.
+:::
+
+:::
+
+## Past work
+
+My PhD (Macquarie, 2022, with Stephen Foley) used eastern Australia as a natural
+laboratory for **lithospheric metasomatism** and showed that metasomatised source
+assemblages are required to generate the region's intraplate volcanism. That work
+also clarified how olivine partitioning differs between highly alkaline and tholeiitic
+melts — a result still being applied in studies of cratonic-margin magmatism.
+
+My Manchester postdoc (with Simon Hunt, 2022–23) characterised the rheological behaviour
+of Co₂SiO₄ at transition-zone pressures under stress, and produced a statistical
+workflow for processing XRF and EDS spectral mapping data on experimental charges.

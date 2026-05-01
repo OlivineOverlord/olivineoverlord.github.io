@@ -1,0 +1,17 @@
+/* styles.css — small supplementary rules.
+   Most styling lives in theme.scss; keep this file for late-stage tweaks
+   you don't want to recompile SCSS for. */
+
+/* Smooth in-page anchor jumps */
+html { scroll-behavior: smooth; }
+
+/* The horizontal rule that separates page sections */
+hr { border-top: 1px solid #e6e2d5; margin: 2.5rem 0; }
+
+/* Print: clean PDF export of CV */
+@media print {
+  .navbar, .nav-footer, #quarto-margin-sidebar, #TOC,
+  .sidebar, .quarto-title-meta { display: none !important; }
+  body { background: white; font-size: 11pt; }
+  a { color: black; border-bottom: none; }
+}

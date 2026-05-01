@@ -1,0 +1,240 @@
+/*-- scss:defaults --*/
+
+// === Typography =============================================================
+// EB Garamond for body — elegant, classical, screen-readable at larger sizes.
+// JetBrains Mono for code/data — sharp, technical, "lab notebook" feel.
+$web-font-path: "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap";
+$web-font-family: "EB Garamond", "Iowan Old Style", "Apple Garamond", Georgia, serif;
+$web-mono-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+
+$font-family-sans-serif: $web-font-family !default;
+$font-family-monospace: $web-mono-family !default;
+
+$font-size-base: 1.125rem;       // 18px — comfortable for serif on screen
+$line-height-base: 1.55;
+$headings-font-weight: 600;
+$headings-line-height: 1.2;
+
+// === Colour palette =========================================================
+// "Quiet accents": muted moss-olive (a discrete nod to olivine) on warm paper.
+
+$body-bg:   #fbfaf6;             // warm off-white, like aged paper
+$body-color: #1a1c19;            // near-black, slight green undertone
+
+$primary:   #5d6b3d;             // muted moss / olive — the accent
+$secondary: #6b7a5a;             // softer olive
+$success:   #5d6b3d;
+$info:      #4a6670;             // slate-teal, used sparingly
+$link-color: #5d6b3d;
+$link-hover-color: #2f3620;
+
+// Borders, rules, subtle UI
+$border-color: #e6e2d5;
+$gray-100: #f3efe5;
+$gray-200: #e6e2d5;
+$gray-600: #6b6c66;
+$gray-700: #4a4b46;
+
+// Code styling
+$code-color: #5d4a30;            // warm brown, sits well with olive
+$code-bg: #f3efe5;
+
+// Navbar
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$navbar-hl: $primary;
+
+// Headings — let h1 breathe, smaller cascade than default
+$h1-font-size: 2.4rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.35rem;
+$h4-font-size: 1.15rem;
+
+
+/*-- scss:rules --*/
+
+// === Imports ================================================================
+@import url($web-font-path);
+
+// === Body & rhythm ==========================================================
+body {
+  font-feature-settings: "kern", "liga", "onum";  // old-style numerals — academic touch
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Page title — the "publication" feel: hairline rule below
+.quarto-title-banner,
+.quarto-title > h1.title,
+.title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.005em;
+}
+
+h2 {
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+}
+
+// Section first-of-type loosens the top margin
+h2:first-of-type { margin-top: 1.5rem; }
+
+// Drop caps would be too much; instead, tighten lead paragraph
+.lead, p.lead {
+  font-size: 1.18rem;
+  font-style: italic;
+  color: $gray-700;
+  line-height: 1.5;
+}
+
+// === Links — subtle but clearly interactive =================================
+a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(93, 107, 61, 0.25);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+a:hover {
+  border-bottom-color: $primary;
+  color: $link-hover-color;
+}
+.navbar a, .nav-link, .navbar-brand,
+a.no-underline, h1 a, h2 a, h3 a, h4 a {
+  border-bottom: none;
+}
+
+// === Navbar — flat, quiet, just text ========================================
+.navbar {
+  border-bottom: 1px solid $border-color;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.navbar .navbar-brand {
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+.navbar .nav-link {
+  font-size: 1rem;
+  padding: 0.25rem 0.85rem !important;
+}
+
+// === Code — monospace block has subtle olive left rule ======================
+pre, pre.sourceCode, div.sourceCode {
+  background: $code-bg;
+  border-left: 2px solid $primary;
+  border-radius: 2px;
+  padding: 0.85rem 1rem !important;
+  font-size: 0.92rem;
+}
+code {
+  font-size: 0.92em;
+  padding: 0.08em 0.3em;
+  border-radius: 2px;
+}
+
+// === Blockquotes — academic pull-quote ======================================
+blockquote, .blockquote {
+  border-left: 3px solid $primary;
+  padding: 0.4rem 1.2rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: $gray-700;
+  background: transparent;
+}
+
+// === Tables — restrained, "Nature-style" ====================================
+table {
+  border-top: 1.5px solid $body-color;
+  border-bottom: 1.5px solid $body-color;
+  font-size: 0.95rem;
+}
+table thead th {
+  border-bottom: 1px solid $body-color;
+  font-weight: 600;
+  text-align: left;
+}
+table td, table th {
+  padding: 0.5rem 0.85rem;
+}
+
+// === Listing pages (blog index, publications) ===============================
+.quarto-listing-default .listing-item,
+.quarto-listing .listing-item {
+  border-bottom: 1px solid $border-color;
+  padding: 1.2rem 0;
+}
+.listing-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+.listing-subtitle, .listing-description {
+  color: $gray-700;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+.listing-date, .listing-categories {
+  font-family: $web-mono-family;
+  font-size: 0.82rem;
+  color: $gray-600;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+.listing-categories .listing-category {
+  background: $gray-100;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.3rem;
+  border-radius: 2px;
+}
+
+// === Home-page hero — minimal, "letterhead" =================================
+.home-hero {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.home-hero .name {
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.2rem;
+}
+.home-hero .role {
+  font-style: italic;
+  color: $gray-700;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.home-hero .affiliation {
+  font-family: $web-mono-family;
+  font-size: 0.9rem;
+  color: $gray-600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+// === Publication list styling (bibliographies) ==============================
+.csl-entry {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  text-indent: -2rem;
+  line-height: 1.45;
+}
+
+// === Footer =================================================================
+.nav-footer {
+  border-top: 1px solid $border-color;
+  font-size: 0.9rem;
+  color: $gray-600;
+  padding: 1.5rem 0;
+}
+
+// === Responsive tweaks ======================================================
+@media (max-width: 768px) {
+  $font-size-base: 1.05rem;
+  .home-hero .name { font-size: 2rem; }
+  h1, h1.title { font-size: 1.85rem; }
+}

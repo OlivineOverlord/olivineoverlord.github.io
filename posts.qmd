@@ -1,0 +1,21 @@
+---
+title: "Notes"
+description: "Plain-language explainers of papers, methods, and bits of geochemistry I think are interesting."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, description, categories, reading-time]
+  feed: true
+page-layout: full
+title-block-banner: false
+---
+
+A working notebook of paper explainers, method walk-throughs, and the occasional opinion.
+The pieces here are written for whoever finds them useful — undergraduates, collaborators
+in adjacent fields, the public, and (often) future me.
+
+If something here helps clarify a paper or a method, [drop me a line](mailto:joshuajshea@gmail.com).

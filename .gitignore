@@ -1,0 +1,24 @@
+# Quarto build output
+/_site/
+/.quarto/
+
+# Freeze cache (do commit this if you want reproducible figure builds across machines;
+# omit it if you'd rather always re-render. Default: commit it.)
+# /_freeze/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python (only relevant if you add Python code chunks)
+__pycache__/
+*.pyc
+.venv/
+
+# R (only relevant if you add R chunks)
+.Rproj.user/
+.Rhistory
+*.Rproj

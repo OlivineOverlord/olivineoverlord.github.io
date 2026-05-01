@@ -1,0 +1,125 @@
+---
+title: "Curriculum Vitae"
+description: "Joshua Shea — academic CV"
+toc: true
+toc-depth: 2
+date-modified: today
+---
+
+::: {.callout-note appearance="simple"}
+[**Download as PDF**](cv.pdf) · [GitHub](https://github.com/olivineoverlord) · [ORCID](https://orcid.org/0000-0000-0000-0000) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
+
+*To produce the PDF: render this page in your browser, print → save as PDF. The print stylesheet hides nav/sidebar.*
+:::
+
+## Current position
+
+**Postdoctoral Research Associate**, with Prof. Oliver Shorttle  
+Department of Earth Sciences, University of Cambridge · Nov 2023 – present
+
+- *Jan 2026 – present.* Carbon isotope methods on olivine and plagioclase inclusions at MORB to understand volatile behaviour in spreading-ridge cumulates.
+- *Oct 2025 – present.* Leading experimental petrology on hydrothermal vents as prebiotic environments — testing scenarios linking volcanism and deep volatile cycles to the origins of life.
+- *Nov 2023 – Sep 2025.* Developed a high-precision SIMS method for concurrent C concentration and δ¹³C in basaltic glasses; revised the carbon isotope composition of the upper mantle and the deep primordial reservoir using olivine-hosted melt inclusions.
+
+## Previous appointments
+
+**Postdoctoral Research Associate**, with Dr Simon Hunt  
+Department of Materials, University of Manchester · Sep 2022 – Nov 2023
+
+- High-pressure experiments under stress applicable to convection in the transition zone; machine-learning-enhanced processing of spectral data on experimental charges.
+- Characterised the rheology of Co₂SiO₄ at 4 GPa under stress; developed a statistical workflow for processing XRF and EDS spectral mapping on experimental charges.
+
+**Engineering Geologist**  
+Pells Sullivan Meynink, Sydney · Mar 2019 – Sep 2019
+
+- Geotechnical site investigation for the Rozelle Interchange (Westconnex tunnel system). Supervised drill rigs; performed ¹⁴C dating of sediments.
+
+## Education
+
+- **PhD**, Earth and Planetary Sciences, Macquarie University · 2022.  
+  *The role of metasomatism in producing mantle sources for continental mafic melts.* With Prof. Stephen Foley.
+- **MRes**, Earth and Planetary Sciences, Macquarie University · 2018.
+- **BSc**, Geology (major) and Geography (minor), Macquarie University · 2016.
+
+## Awards
+
+- **A. H. Voisey Medal**, NSW Division, Geological Society of Australia · 2024.  
+  *For significant contribution to the Earth Sciences in Australia by an early-career Earth scientist.*
+
+## Funding
+
+Total secured: **~£540 k** (\* = in-kind).
+
+### Principal Investigator
+
+- *Effect of CFSE on 3d-transition-metal partitioning in olivine* — direct access to the IMF, NERC scientific support and facilities, 2025. \*£10.5 k.
+- *Pressure treatment of lithium-phosphate olivine cathodes* — Enhancing Research Culture EDIA Summer Internship, Wellcome Trust, 2023. £3.8 k.
+- *Geochronology of the eastern Australian leucitite suite* — National Argon Map, AuScope, 2021. \*A\$15 k.
+- *Deciphering the potassic magmas of eastern Australia* — Victorian Division, Geological Society of Australia, 2020. A\$10 k.
+
+### Named collaborator
+
+- *Volcanic gas chemistry for eruption forecasting* (CI: Dr Ery Hughes) — Endeavour Fund Smart Ideas (MBIE, NZ), 2025–2028. NZ\$1.15 M.
+
+## Teaching
+
+**Demonstrator**, Earth Sciences, University of Cambridge · 2024 – present.  
+Part IB *Earth Sciences B* and Part II *Earth Sciences*. Classes up to 30 students. Modules: subsurface processes of the lithosphere and asthenosphere; origin and composition of rocky planets; differentiation of the Earth; melting, metamorphism, and convection. Igneous-petrology module on global MORB systematics, mantle heterogeneity, magma storage, and mantle-temperature estimation using data-science techniques in Python.
+
+**Undergraduate supervisions**, King's & Jesus Colleges, University of Cambridge · 2024 – present.  
+Weekly small-group teaching (≤4 students) covering Part IB *Earth Sciences B*: igneous and metamorphic petrology, phase diagrams.
+
+**Demonstrator**, Earth and Planetary Sciences, Macquarie University · 2017 – 2022.  
+*Introduction to Oceanography* (1st year), *Geology of Australia* (2nd year). Practicals, fieldwork, marking.
+
+## Supervision and mentoring
+
+- *Primary supervisor* — Wellcome Trust EDI Summer Intern, High-Pressure Experimental Materials Lab, Manchester, 2023.
+- *Associate supervisor* — Henry Royce Undergraduate Research Intern, High-Pressure Experimental Materials Lab, Manchester, 2023.
+- Ongoing mentoring of PhD students at the Universities of Münster and Cambridge — high-pressure experiments, natural-sample data interpretation, thermodynamic modelling, micro-analytical geochemical methods.
+
+## Service
+
+- **Early Career Geoscientist Advisory Panel (ECGAP)**, Geological Society of Australia, national division — Jan 2024 – present.
+- **General Committee Member**, NSW Division, Geological Society of Australia — Oct 2023 – present.
+- **Reviewer** — *Nature*, *Journal of Petrology*, *American Mineralogist*, *Australian Journal of Earth Sciences*, *Geoscientific Model Development*, *Open Geoscience*, *Gondwana Research*, *Lithos*, *Geochemical Perspectives Letters*, *Geochimica et Cosmochimica Acta*, *Chemical Geology*, *Geology*.
+- **PDRA Forum Committee Member**, Department of Materials, University of Manchester — 2022 – 2023.
+- **Academic Supervisor**, High School Science Extension, Narrabeen High School, Sydney — 2021.
+- **Higher Degree Research Representative**, School of Natural Sciences, Macquarie University — 2020 – 2021.
+
+## Equity, diversity and inclusion
+
+- **Sutton Trust Lecture** — *Planetary Science and Mars Research*. Delivered to sixth-form students for a widening-participation initiative, University of Cambridge, September 2025.
+- **Invisible Disabilities Training**, Purple Infusion via the School of Natural Sciences, University of Manchester, August 2023.
+- **Wellcome Trust EDI Summer Internship** — designed and led a funded internship for an under-represented penultimate-year undergraduate, Manchester, 2023.
+
+## Professional affiliations
+
+- The Geological Society of Australia — General Member, 2019 – present.
+- The Geochemical Society — General Member, 2020 – present.
+- European Geosciences Union — General Member, 2020 – present.
+- The Geological Society of London — Fellow, 2023 – present.
+
+## Fieldwork
+
+Total: **30.5 weeks** (~7.5 months). \* = helped organise.
+
+- Cornish Granites, UK — 1 week, 2023.
+- Eastern Australian Potassic Volcanism II, NSW — 2 weeks, 2020.\*
+- Eastern Australian Potassic Volcanism I, NSW — 2 weeks, 2019.\*
+- Rozelle Interchange Site Investigation, Rozelle, NSW — 3 months, 2019.\*
+- Eastern Australian Volcanic Province, NSW — 1.5 weeks, 2018.\*
+- Undergraduate fieldwork: mapping & volcanology, NSW–SA–NZ — 6 weeks, 2014 – 2016.
+- Volcanology Field Course, Hawaiʻi — 3 weeks, 2015.
+
+## Technical expertise
+
+- **Microscopy**: SEM, EPMA, XRF, EBSD, CL.
+- **Mass spectrometry**: SIMS, ToF-SIMS, LA-ICP-MS(/MS), ICP-MS.
+- **Spectroscopy**: Raman, CHNS.
+- **Experimental apparatus**: piston-cylinder, multi-anvil, gas-mixing furnace.
+- **Programming**: Python, R, LaTeX.
+
+## Selected talks
+
+See [publications](publications.qmd#selected-talks-and-conference-presentations).
