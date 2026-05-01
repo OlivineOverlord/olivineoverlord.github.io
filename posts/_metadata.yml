@@ -13,7 +13,7 @@ author: "Joshua Shea"
 back-to-top-navigation: true
 
 # Citation block at the bottom of each post (for academic-style citation export)
-citation: true
+citation: false
 
 execute:
   freeze: auto

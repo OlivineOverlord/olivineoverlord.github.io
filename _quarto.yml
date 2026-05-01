@@ -67,7 +67,6 @@ format:
       gutter-width: 1.5rem
 
 bibliography: references.bib
-csl: https://www.zotero.org/styles/geochimica-et-cosmochimica-acta
 
 execute:
   freeze: auto
